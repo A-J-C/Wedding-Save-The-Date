@@ -1,28 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
-
-body {
-    font-family: 'Parisienne', cursive;
-    background: url('../images/engagement.jpeg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#header {
-    font-size: 50px;
-    text-align: center;
-    width: 95%;
-    height: auto;
-    margin: auto;
-    color: #fff;
-    max-width: 500px;
-    padding: 20px;
+body {
+    overflow: hidden;
+}
+
+.imgbox {
+    display: grid;
+    height: 100%;
 }
 
 .centre {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
